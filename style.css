@@ -1,7 +1,4 @@
-::root{
-  --nav-height: 100px;
-}
-
+/* General */
 html{
   height: 100vh;
   overflow: hidden;
@@ -18,6 +15,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+/* General */
 
 /* Topnav */
 nav {
@@ -25,9 +23,9 @@ nav {
   position: sticky;
   width: 100%;
   top: 0;
-  height: 100px;
-  padding-top: 10px;
-  padding-bottom: 25px;
+  height: 4vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: center;
@@ -46,7 +44,10 @@ nav {
   text-overflow: ellipsis;
   white-space: nowrap;
   text-align: center;
-  padding-left: 4vw; /* Regola la dimensione del padding a tuo piacimento */
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
   text-decoration: none;
   font-size: 1.5vw;
   font-family: monospace;
@@ -57,8 +58,8 @@ nav {
   background-color: white !important;   
   transition: background-color 0.4s, color 0.4s;
 }
-
 /* Topnav */
+
 
 .section1, .section2{
   width: 100%;
@@ -67,8 +68,20 @@ nav {
   transform-style: preserve-3d;
 }
 
-.section1{
-  margin-top: 200px;
+.section3{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  transform-style: preserve-3d;
+  background-color: #06c;
+}
+
+.section2{
+  background: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Heavy';
 }
 
 .section1::before{
@@ -78,7 +91,7 @@ nav {
   position: absolute;
   background: url(img/blue-spid.png) top center;
   background-size: cover;
-  transform: translateZ(-1px) scale(2.01);
+  transform: translateZ(-1px) scale(2.3);
 }
 
 .section1::after{
@@ -100,14 +113,7 @@ nav {
   transform: translateZ(-0.5px) scale(1.5, 1.6) translate(-33%, 10%);
 }
 
-.section2{
-  background: white;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Franklin Gothic Heavy';
-}
-
+/* section 1 */
 
 .text{
   top:30%;
@@ -145,16 +151,33 @@ nav {
   transform: scale(1,1.1) translate(-50%, 10%);
 }
 
+/* section 1 */
+
+/* section 2 */
+
+.text3{
+  top: 33%;
+  left: 80%;
+  position: absolute;
+  font-family: 'Franklin Gothic Heavy';
+  color: #06c;
+  font-size: 15vW;
+  text-shadow: 0px 0px 20px rgb(0, 62, 124),
+  5px 5px 70px rgba(255, 255, 255, 0.5);
+  transform: scale(1,1.1) translate(-60%, 5%);
+}
+
 .wrapper{
   width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .container{
   height: 400px;
+  padding-left: 50px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: start;
@@ -205,7 +228,7 @@ nav {
 }
 
 .description p {
-  color: #06c;
+  color: rgb(0, 102, 204);
   margin-top: 0;
 }
 
@@ -229,28 +252,33 @@ input:checked + label .description {
 
 .card[for="c1"] {
   background-image: url(/img/c1.png);
-  background-size: 60vh;
+  background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card[for="c2"] {
   background-image: url(/img/c2.png);
-  background-size: 60vh;
+  background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card[for="c3"] {
   background-image: url(/img/c3.png);
-  background-size: 60vh;
+  background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card[for="c4"] {
   background-image: url(/img/c4.png);
-  background-size: 60vh;
+  background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
+/* Section 2 */
+
+/* Section 3 */
+
+/* Section 3 */
