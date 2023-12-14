@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SPID</title>
+</head>
+<body>
+
+    <!-- Logo prima immagine -->
+
+    <div class="section1">
+        <!-- Topnav -->
+        <nav id="navbar">
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#info">Info</a>
+                <a href="#comeAttivarlo">Come attivarlo</a>
+                <a href="#about">Pubblica Amministrazione</a>
+                <a href="#domande">Hai dubbi?</a>
+                <a href="#crediti">Crediti</a>
+            </div> 
+            <script type="text/javascript">
+                var lastScrollTop = 0;
+                navbar = document.getElementById("navbar");
+                window.addEventListener("scroll", function(){
+                    var scrollTop = window.scrollY || document.documentElement.scrollTop;
+                        if(scrollTop > lastScrollTop){
+                            navbar.style.top = "-60px";
+                        } else {
+                            navbar.style.top = "0px";
+                        }
+                        lastScrollTop = scrollTop;
+                    })
+            </script>
+        </nav>
+        <!-- Topnav -->
+    </div>
+    <div class="section2">
+        <div class="text">NORMAL</div>
+    </div>
+    
+    <!-- Logo prima immagine -->
+
+    
+
+</body>
+</html>
