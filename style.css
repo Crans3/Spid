@@ -285,32 +285,38 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url(/img/c1.png);
+  background-image: url(img/c1.png);
   background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card[for="c2"] {
-  background-image: url(/img/c2.png);
+  background-image: url(img/c2.png);
   background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card[for="c3"] {
-  background-image: url(/img/c3.png);
+  background-image: url(img/c3.png);
   background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card[for="c4"] {
-  background-image: url(/img/c4.png);
+  background-image: url(img/c4.png);
   background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* .fullScreen[for="fullScreen-c1"] {
+  display: grid;
+  vertical-align: bottom;
+  margin: 10px;
+} */
 /* Section 2 */
 
 /* Section 3 */
