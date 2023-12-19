@@ -1,0 +1,138 @@
+/* General */
+html{
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  body {
+    background-color: rgb(28, 28, 28);
+    --nav-height: 100px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    transform-style: preserve-3d;
+    perspective:1px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  /* General */
+  
+  /* Topnav */
+  nav {
+    height: var(--nav-height);
+    position: sticky;
+    width: 100%;
+    top: 0;
+    height: 4vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .topnav {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .topnav a {
+    color: white;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: monospace;
+  }
+  
+  .topnav a:hover {
+    color: #06c;
+    background-color: white !important;   
+    transition: background-color 0.4s, color 0.4s;
+  }
+  /* Topnav */
+  
+  /* section 1 */
+  
+  .section1, .section2{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    transform-style: preserve-3d;
+  }
+
+  .section1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(/img/blue-spid.png) top center;
+    background-size: cover;
+    transform: translateZ(-1px) scale(2.3);
+  }
+  
+  .section1::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left: 25vw;
+    background: url(/img/spid-cosa-e-pc-e-info.png) center;
+    background-size: cover;
+  }
+  
+  .section1 .textlittle{
+    transform: translateZ(-0.5px) scale(1.5, 1.6) translate(-33%, 10%);
+  }
+  
+  .section1 .text {
+    top: 10%;
+    transform: translateZ(-0.5px) scale(1.5, 1.6) translate(-33%, 10%);
+  }
+  
+  
+  .text{
+    top:30%;
+    left: 10%;
+    position: absolute;
+    font-family: 'Franklin Gothic Heavy';
+    color: white;
+    font-size: 15vW;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+    5px 5px 70px rgba(255, 255, 255, 0.5);
+    transform: scale(1,1.1) translate(-50%, 10%);
+  }
+  
+  .textlittle{
+    top:60%;
+    left: 11%;
+    position: absolute;
+    font-family: 'Franklin Gothic Heavy';
+    color: white;
+    font-size: 2vW;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+    5px 5px 70px rgba(255, 255, 255, 0.5);
+    transform: scale(1,1.1) translate(-50%, 10%);
+  }
+  
+  .text2{
+    top:30%;
+    left: 50%;
+    position: absolute;
+    font-family: 'Franklin Gothic Heavy';
+    color: white;
+    font-size: 15vW;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+    5px 5px 70px rgba(255, 255, 255, 0.5);
+    transform: scale(1,1.1) translate(-50%, 10%);
+  }
+
+  /* section 1 */
