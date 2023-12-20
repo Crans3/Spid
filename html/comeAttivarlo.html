@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Come Attivarlo?</title>
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="/css/styleAttivarlo.css">
 </head>
 <body>
@@ -29,39 +30,23 @@
         <!-- Sez 2 -->
 
         <div class="section2">
-            <div class="card">
-                <div class="imgBox">
-                    <img src="/img/logo-poste.png" alt="">
-                </div>
-                <div class="scheda1">
-                    <div class="dettagli">
-                        <h2>
-                            Poste Italiane <br>
-                        </h2>
-                        <div class="data">
-                           | Livello: 3 | <br> | Area: Mondiale | <br> | Riconoscimento di persona: Si | <br> | Riconoscimento da Remoto : Si | <br>
-                            | Riconoscimento CIE : Si | <br>
-                            | Codice OTP : Si | 
+            <div class="slide-container">
+                <div class="slide-content">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <div class="image-content">
+                                <span class="overlay">
+                                    <div class="card-image">
+                                        <img src="/img/logo-poste.png" alt="logo-poste" class="card-img"> 
+                                    </div>
+                                    <div class="card-content">
+                                        <h2 class="name">POSTE ITALIANE</h2>
+                                        <p class="descrizione">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae necessitatibus corrupti, voluptatem quas dolore totam facilis consequuntur at sed non. Alias nulla atque eos mollitia nostrum, temporibus commodi minus.</p>
+                                        <button class="button">Altro</button>
+                                    </div>
+                                </span>
+                            </div>
                         </div>
-                        <div class="actionBtn"><button><a href="https://posteid.poste.it/" target="_blank">Altro</a></button></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card pos2">
-                <div class="imgBox">
-                    <img src="/img/logo-poste.png" alt="">
-                </div>
-                <div class="scheda2">
-                    <div class="dettagli">
-                        <h2>
-                            Poste Italiane <br>
-                        </h2>
-                        <div class="data">
-                           | Livello: 3 | <br> | Area: Mondiale | <br> | Riconoscimento di persona: Si | <br> | Riconoscimento da Remoto : Si | <br>
-                            | Riconoscimento CIE : Si | <br>
-                            | Codice OTP : Si | 
-                        </div>
-                        <div class="actionBtn"><button><a href="https://posteid.poste.it/" target="_blank">Altro</a></button></div>
                     </div>
                 </div>
             </div>
@@ -69,4 +54,7 @@
 
         <!-- Sez 2 -->
 </body>
+
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
 </html>
