@@ -168,10 +168,10 @@ a{
   height: 100%;
   width: 100%;
   background-color: #06c;
-  border-radius: 18px 18px 0 18px;
+  border-radius: 15px 15px 15px 15px;
 }
 
-.overlay::before,
+/* .overlay::before,
 .overlay::after{
   content: '';
   position: absolute;
@@ -180,7 +180,7 @@ a{
   height: 40px;
   width: 40px;
   background-color:#06c ;
-}
+} */
 
 .overlay::after{
   border-radius: 0 25px 0 0;
@@ -189,19 +189,25 @@ a{
 
 .card-image{
   position:relative;
-  border-radius: 250px;
+  border-radius: 200px;
   height: 150px;
   width: 150px;
   background-color: #06c;
   padding: 3px;
 }
 
-.card-image .card-img{
+#normal {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  border-radius: 250px; 
+  border-radius: 100px; 
+}
 
+#special {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0px;
 }
 
 .name{
@@ -216,7 +222,7 @@ a{
   text-align: center;
 }
 
-.button{
+.button {
   border: none;
   font-size: 16px;
   color: #fff;
@@ -226,6 +232,10 @@ a{
   margin: 14px;
   cursor: pointer;
   transition: 0.2s all ease;
+}
+
+a{
+  color: #fff;
 }
 
 .button:hover{
