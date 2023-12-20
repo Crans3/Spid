@@ -130,7 +130,7 @@ nav {
 /* section 2 */
 
 .section2{
-  background: rgb(28, 28, 28);
+  background: #fff;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -142,19 +142,21 @@ nav {
 
 .container-amministrazione {
   margin: auto;
-  width: 50%;
+  width: 60%;
   padding: 2rem;
 }
 
 .slider-wrapper {
   position: relative;
-  max-width: 48rem;
   margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 0.7rem;
+  box-shadow: 2px 2px 5px 1px;
 }
 
 .slider {
   display: flex;
-  aspect-ratio: 1;
+  aspect-ratio: 16 / 9;
   overflow-x: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -179,8 +181,8 @@ nav {
 }
 
 .slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 0.8rem;
+  height: 0.8rem;
   border-radius: 50%;
   background-color: #fff;
   opacity: 0.5;
