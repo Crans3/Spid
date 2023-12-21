@@ -1,5 +1,4 @@
 1. fixare comeAttivarlo.html
-2. aggiungere fullscreen su info in index.html
-3. fixare animazione pubblicaAmministrazione.html scroll (opzionale)
-4. Scorrimento rapido quando si cliccano opzioni su topnav (opzionale)
-5. fixare posizionamento css (opzionale)
+2. sistemare fullscreen su info in index.html
+3. Scorrimento rapido quando si cliccano opzioni su topnav (opzionale)
+4. fixare posizionamento css (opzionale)

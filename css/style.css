@@ -60,7 +60,6 @@ nav {
 }
 /* Topnav */
 
-
 .section1, .section2{
   width: 100%;
   min-height: 100vh;
@@ -249,7 +248,7 @@ nav {
   flex-direction: column;
   overflow: hidden;
   height: 80px;
-  width: 520px;
+  width: 440px;
   opacity: 0;
   transform: translateY(30px);
   transition-delay: .3s;
@@ -259,6 +258,8 @@ nav {
 .description p {
   color: rgb(0, 102, 204);
   margin-top: 0;
+  padding-top: 0;
+  font-size: 0.8vw;
 }
 
 .description h4 {
@@ -307,11 +308,17 @@ nav {
   background-repeat: no-repeat;
 }
 
-/* .fullScreen[for="fullScreen-c1"] {
-  display: grid;
-  vertical-align: bottom;
+.fullScreen-image {
+  position: sticky;
   margin: 10px;
-} */
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.fullScreen {
+  background-image: none;
+  border: 0;
+}
 /* Section 2 */
 
 /* Section 3 */
