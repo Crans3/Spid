@@ -382,8 +382,7 @@ nav {
   font-family: 'Franklin Gothic Heavy';
   color: #06c;
   font-size: 2vW;
-  text-shadow: 0px 0px 20px rgb(0, 62, 124),
-  5px 5px 70px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 0px 5px #06c;
   transform: scale(1,1.1) translate(-60%, 5%);
 }
 
@@ -395,7 +394,6 @@ nav {
   color: #06c;
   font-size: 1vW;
   text-align: justify;
-  text-shadow: 0px 0px 20px rgb(0, 62, 124),
-  5px 5px 70px rgba(255, 255, 255, 0.5);
+  text-shadow: 0px 0px 5px #06c;
 }
 /* Section 4 */
