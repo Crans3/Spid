@@ -70,7 +70,7 @@ nav {
 
 .section3{
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
   transform-style: preserve-3d;
 }
@@ -86,11 +86,12 @@ nav {
 .section3::before{
   content: "";
   width: 100%;
-  height: 100%;
+  height: 120%;
   position: absolute;
-  background: url(/img/blue-spid.png) top center;
+  background: url(/Spid/img/blue-spid.png) top center;
   background-size: cover;
-  transform: translateZ(0.1px) scale(1.1);
+  transform: translateZ(0px) scale(1);
+  /* opacity: 0.5; */
 }
 
 .section3::after{
@@ -99,18 +100,18 @@ nav {
   height: 100%;
   position: absolute;
   margin-left: 25vw;
-  background: url(/img/domande.png) center;
+  background: url(/Spid/img/domande.png) center;
   background-repeat: no-repeat;
-  transform: translateZ(0.1px)
+  transform: translateZ(0.1px) translateY(-6vh);
 }
 
 .text4{
-  top:30%;
-  left: 20vw;
+  top: 20%;
+  left: 19vw;
   position: absolute;
   font-family: 'Franklin Gothic Heavy';
   color: white;
-  font-size: 15vW;
+  font-size: 10vW;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
   5px 5px 70px rgba(255, 255, 255, 0.5);
   transform: translateZ(0.3px) scale(0.5,0.6) translate(-50%, 10%);
@@ -121,7 +122,7 @@ nav {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url(/img/blue-spid.png) top center;
+  background: url(/Spid/img/blue-spid.png) top center;
   background-size: cover;
   transform: translateZ(-1px) scale(2.3);
 }
@@ -132,7 +133,7 @@ nav {
   height: 100%;
   position: absolute;
   margin-left: 25vw;
-  background: url(/img/spid-cosa-e-pc-e-info.png) center;
+  background: url(/Spid/img/spid-cosa-e-pc-e-info.png) center;
   background-size: cover;
 }
 
@@ -146,7 +147,6 @@ nav {
 }
 
 /* section 1 */
-
 .text{
   top:30%;
   left: 10%;
@@ -182,13 +182,9 @@ nav {
   5px 5px 70px rgba(255, 255, 255, 0.5);
   transform: scale(1,1.1) translate(-50%, 10%);
 }
-
 /* section 1 */
 
-
-
 /* section 2 */
-
 .text3{
   top: 33%;
   left: 86vw;
@@ -271,42 +267,42 @@ nav {
   text-transform: uppercase;
 }
 
-input {
+.container input {
   display: none;
 }
 
-input:checked + label {
+.container input:checked + label {
   width: 600px;
 }
 
-input:checked + label .description {
+.container input:checked + label .description {
   opacity: 1 !important;
   transform: translateY(0) !important;
 }
 
 .card[for="c1"] {
-  background-image: url(/img/c1.png);
+  background-image: url(/Spid/img/c1.png);
   background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card[for="c2"] {
-  background-image: url(/img/c2.png);
+  background-image: url(/Spid/img/c2.png);
   background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card[for="c3"] {
-  background-image: url(/img/c3.png);
+  background-image: url(/Spid/img/c3.png);
   background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card[for="c4"] {
-  background-image: url(/img/c4.png);
+  background-image: url(/Spid/img/c4.png);
   background-size: 45svh;
   background-position: center;
   background-repeat: no-repeat;
@@ -320,5 +316,87 @@ input:checked + label .description {
 /* Section 2 */
 
 /* Section 3 */
+.form-container {
+  top: 55vh;
+  left: -48vh;
+  position: relative;
+  border-radius: 10px;
+  z-index: 2;
+}
 
+#question-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 1vh;
+  min-height: 1vh;
+  max-width: 80vh;
+  max-height: 20vh;
+  margin: 0 auto;
+}
+
+#q1 {
+  height: 5vh;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1vW;
+  border: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0.2px white;
+  font-family: 'Franklin Gothic Heavy';
+}
+
+#q2 {
+  padding: 10px;
+  background-color: rgb(0, 72, 142);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.1vW;
+  box-shadow: 0px 0px 5px 0.2px rgb(0, 72, 142);
+  font-family: 'Franklin Gothic Heavy';
+}
+
+#q2:hover {
+  background-color: rgb(0, 62, 124);
+  box-shadow: 0px 0px 5px 0.2px rgb(0, 62, 124);
+}
 /* Section 3 */
+
+/* Section 4 */
+.section4{
+  width: 100%;
+  min-height: 30vh;
+  position: relative;
+  transform-style: preserve-3d;
+  background: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Heavy';
+}
+
+.text5 {
+  top: 15%;
+  left: 50vw;
+  position: absolute;
+  font-family: 'Franklin Gothic Heavy';
+  color: #06c;
+  font-size: 2vW;
+  text-shadow: 0px 0px 20px rgb(0, 62, 124),
+  5px 5px 70px rgba(255, 255, 255, 0.5);
+  transform: scale(1,1.1) translate(-60%, 5%);
+}
+
+.text6 {
+  top: 35%;
+  padding: 1vh;
+  position: absolute;
+  font-family: 'Franklin Gothic Heavy';
+  color: #06c;
+  font-size: 1vW;
+  text-align: justify;
+  text-shadow: 0px 0px 20px rgb(0, 62, 124),
+  5px 5px 70px rgba(255, 255, 255, 0.5);
+}
+/* Section 4 */

@@ -1,5 +1,4 @@
-1. Scorrimento rapido quando si cliccano opzioni su topnav
-2. comeAttivarlo.html
-3. pubblicaAmministrazione.html
-4. Sezione Domande
-5. Sezione Crediti
+1. finire comeAttivarlo.html
+2. fixare sezione domande
+3. Scorrimento rapido quando si cliccano opzioni su topnav (opzionale)
+4. fixare posizionamento css
