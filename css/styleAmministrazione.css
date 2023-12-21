@@ -145,9 +145,8 @@ nav {
 .slider-wrapper {
   position: relative;
   margin: 0 auto;
-  border: 2px solid black;
   border-radius: 0.7rem;
-  box-shadow: 2px 2px 5px 1px;
+  box-shadow: 0px 0px 6px 2px #06c;
 }
 
 .slider {

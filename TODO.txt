@@ -1,4 +1,5 @@
-1. finire comeAttivarlo.html
-2. fixare sezione domande
-3. Scorrimento rapido quando si cliccano opzioni su topnav (opzionale)
-4. fixare posizionamento css
+1. fixare comeAttivarlo.html
+2. fixare form sezione domande
+3. fixare pubblicaAmministrazione.html scroll in basso in a href
+4. Scorrimento rapido quando si cliccano opzioni su topnav (opzionale)
+5. fixare posizionamento css (opzionale)
