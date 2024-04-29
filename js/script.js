@@ -2,7 +2,7 @@ function changeSlide(slideNumber) {
   for (var i = 1; i <= 4; i++) {
     var currentSlideId = "slide-" + i;
     var currentSlide = document.getElementById(currentSlideId);
-    currentSlide.style.backgroundImage = "url('/Spid/img/slide-" + slideNumber + ".png')";
+    currentSlide.style.backgroundImage = "url('../img/slide-" + slideNumber + ".png')";
 
     var currentNavItem = document.getElementById("nav-item-" + i);
     if (i === slideNumber) {
@@ -14,7 +14,8 @@ function changeSlide(slideNumber) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  if(document.location.pathname == "/Spid/html/pubblicaAmministrazione.html") {
+  var pathName = document.location.pathname.toString();
+  if(pathName.includes("/html/pubblicaAmministrazione.html")) {
     changeSlide(1);
   }
 });
